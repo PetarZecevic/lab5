@@ -11,6 +11,10 @@
 #include "vga_periph_mem.h"
 Xuint32 cursor_position;
 /************************** Function Definitions ***************************/
+void delay(Xuint32 SPEED){
+	int time;
+	for(time = 0; time < SPEED; time++);
+}
 
 void set_cursor(Xuint32 new_value){
 	cursor_position = new_value;
@@ -50,4 +54,27 @@ void draw_square(Xuint32 BaseAddress){
 				}
 			}
 		}
+}
+
+void move_square(Xuint32 BaseAddress, Xuint32 offset){
+	draw_square(BaseAddress + offset);
+}
+
+
+void move_text(Xuint32 BaseAddress,Xuint32 offset,unsigned char string_s[],int length,int step){
+	int i;
+	for(i=0;i<=step*480;i+=480){
+		print_string(BaseAddress+offset*i,string_s,length);
+		delay(8000000);
+		clear_text_screen(BaseAddress);
+	}
+	print_string(BaseAddress+offset*i,string_s,length);
+}
+
+int condition(Xuint32 Address, Xuint32 offset, const Xuint32 BaseAddress){
+	if(offset >= 4*50 || offset <= (-1)*4*50){
+		return 1;
+	}else{
+		return 0;
+	}
 }

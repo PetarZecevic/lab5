@@ -68,11 +68,14 @@
 XStatus VGA_PERIPH_MEM_SelfTest(void * baseaddr_p);
 
 void set_cursor(Xuint32 new_value);
-
+void delay(Xuint32 SPEED);
 void clear_graphics_screen(Xuint32 BaseAddress);
 void clear_text_screen(Xuint32 BaseAddress);
 
 void draw_square(Xuint32 BaseAddress);
 void print_string(Xuint32 BaseAddress, unsigned char string_s[], int lenght);
+void move_square(Xuint32 BaseAddress, Xuint32 offset);
+void move_text(Xuint32 BaseAddress,Xuint32 offset,unsigned char string_s[],int length,int step);
+int condition(Xuint32 address, Xuint32 offset, const Xuint32 BaseAddress);
 
 #endif /** VGA_PERIPH_MEM_H */

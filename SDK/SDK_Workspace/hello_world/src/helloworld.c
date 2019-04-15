@@ -36,6 +36,7 @@
 
 
 #include <stdio.h>
+#include <unistd.h>
 #include "platform.h"
 #include "xparameters.h"
 #include "xio.h"
@@ -48,6 +49,8 @@ int main()
 {
     init_platform();
     unsigned char string_s[] = "LPRS 2\n";
+    int i;
+    int direction, address;
 
     VGA_PERIPH_MEM_mWriteMemory(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR + 0x00, 0x0);// direct mode   0
     VGA_PERIPH_MEM_mWriteMemory(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR + 0x04, 0x3);// display_mode  1
@@ -65,6 +68,20 @@ int main()
     set_cursor(350);
     print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, string_s, 6);
 
+    direction = 1;
+    i = 0;
+    while(1){
+    	clear_graphics_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
+    	//if(condition(address, i, XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR))
+    	if(i >= 33 || i <= -33)
+    	{
+    		direction = (direction == 1) ? -1 : 1; // promena smera.
+    	}
+    	move_square(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, i);
+    	i += direction;
+    	delay(500000);
+    }
+	move_text(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR,1,string_s,6,6);
 
     return 0;
 }

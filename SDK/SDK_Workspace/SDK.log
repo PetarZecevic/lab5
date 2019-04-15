@@ -137,3 +137,140 @@
 09:39:04.953 INFO  - Refreshed build settings on project hello_world 
 10:33:44.745 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
 10:36:10.473 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:01:12.909 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+11:01:13.565 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:01:13.575 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:01:13.962 WARN  - Unable to determine location of documentation for OS . 
+11:01:13.968 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:01:13.981 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:01:55.674 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:01:57.268 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:01:57.275 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:01:57.276 WARN  - Unable to determine location of documentation for OS . 
+11:01:57.280 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:01:57.285 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:02:05.588 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:02:05.860 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:02:05.880 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:02:06.536 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:02:06.546 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:03:09.009 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:03:09.014 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:03:09.015 WARN  - Unable to determine location of documentation for OS . 
+11:03:09.017 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:03:09.022 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:04:03.474 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:04:03.478 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:04:03.481 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:04:03.482 INFO  - Settings changed on project hello_world_bsp. Triggering a rebuild... 
+11:04:03.813 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:05:33.348 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:05:53.689 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:07:16.259 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:07:16.263 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:07:16.266 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:07:16.267 INFO  - Settings changed on project hello_world_bsp. Triggering a rebuild... 
+11:07:43.555 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:07:43.565 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:07:43.573 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:07:43.575 INFO  - Settings changed on project hello_world_bsp. Triggering a rebuild... 
+11:10:00.118 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:10:00.123 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:10:00.128 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:10:00.129 INFO  - Settings changed on project hello_world_bsp. Triggering a rebuild... 
+11:14:44.998 INFO  - FPGA configured successfully with bitstream "D:/folderi_sa_D/RA43-2016/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:14:45.820 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:15:06.551 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:15:06.560 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:15:06.566 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:15:06.567 INFO  - Settings changed on project hello_world_bsp. Triggering a rebuild... 
+11:15:52.628 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:16:14.664 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:16:14.669 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:16:14.675 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:16:14.676 INFO  - Settings changed on project hello_world_bsp. Triggering a rebuild... 
+11:21:19.004 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:21:19.009 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:21:19.015 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:21:19.016 INFO  - Settings changed on project hello_world_bsp. Triggering a rebuild... 
+11:22:31.938 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:25:51.543 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:25:51.552 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:25:51.557 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:25:51.557 INFO  - Settings changed on project hello_world_bsp. Triggering a rebuild... 
+11:27:44.031 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:27:44.041 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:27:44.049 ERROR - Unable to read in MSS file D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:27:44.051 INFO  - Settings changed on project hello_world_bsp. Triggering a rebuild... 
+11:27:54.530 INFO  - Settings changed on project hello_world_bsp. Triggering a rebuild... 
+11:28:45.212 INFO  - FPGA configured successfully with bitstream "D:/folderi_sa_D/RA43-2016/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:29:21.774 INFO  - FPGA configured successfully with bitstream "D:/folderi_sa_D/RA43-2016/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:30:02.128 INFO  - FPGA configured successfully with bitstream "D:/folderi_sa_D/RA43-2016/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+12:08:11.332 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:20:02.997 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:05:03.623 INFO  - FPGA configured successfully with bitstream "D:/folderi_sa_D/RA43-2016/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:06:06.307 INFO  - FPGA configured successfully with bitstream "D:/folderi_sa_D/RA43-2016/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:08:03.913 INFO  - FPGA configured successfully with bitstream "D:/folderi_sa_D/RA43-2016/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:09:13.497 INFO  - System reset is completed. 
+11:09:45.322 INFO  - FPGA configured successfully with bitstream "D:/folderi_sa_D/RA43-2016/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:37:58.720 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:49:42.898 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+11:49:42.898 ERROR - Timeout occured while waiting to get reply for command "targets 0" 
+11:49:42.900 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.setResetOnRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+11:50:12.386 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+11:50:28.626 WARN  - Terminating existing sessions on processor microblaze_0 
+11:50:40.526 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:50:43.926 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+11:50:53.176 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:50:57.175 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+11:51:31.117 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+11:51:49.617 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:51:54.217 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+11:52:07.118 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:52:08.017 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+11:54:27.217 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:54:27.917 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+11:54:35.617 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:54:37.117 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+11:54:49.617 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:54:51.117 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+11:54:58.859 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
