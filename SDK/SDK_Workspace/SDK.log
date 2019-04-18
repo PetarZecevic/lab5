@@ -274,3 +274,43 @@ If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx 
 	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
 
 11:54:58.859 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:56:14.418 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:56:21.617 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:58:38.401 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:02:05.007 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:02:34.858 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:03:18.017 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:03:40.257 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:04:01.404 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:04:23.160 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:04:46.915 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:06:30.686 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:06:55.550 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:07:31.397 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:09:53.351 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:11:41.211 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:12:27.069 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:13:20.520 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:13:43.707 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:13:59.628 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:14:40.906 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:23:53.926 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+12:23:53.931 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+12:24:34.562 INFO  - Processing command line option -hwspec D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Export\hw\system.xml. 
+12:24:36.524 INFO  - The hardware specification for project 'basic_system_hw_platform' is different from D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Export\hw\system.xml. 
+12:24:36.572 INFO  - Copied contents of D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Export\hw\system.xml into \basic_system_hw_platform\system.xml. 
+12:24:36.576 INFO  - Copied contents of D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+12:24:36.577 INFO  - Copied contents of D:\folderi_sa_D\RA43-2016\lab5\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+12:24:36.845 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+12:24:38.238 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+12:24:38.683 INFO  - Updating MSS for Board Support Package Project: hello_world_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: axi_intc_0, driver: intc_v2_06_a.
+ 
+12:24:40.119 INFO  - Updating hardware inferred compiler options for hello_world. 
+12:24:40.137 INFO  - Clearing existing target manager status. 
+12:26:08.592 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

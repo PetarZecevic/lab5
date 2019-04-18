@@ -128,6 +128,7 @@ entity user_logic is
     red_o          : out std_logic_vector(7 downto 0);
     green_o        : out std_logic_vector(7 downto 0);
     blue_o         : out std_logic_vector(7 downto 0);
+	irq_o		   : out std_logic; -- interrupt signal
     -- ADD USER PORTS ABOVE THIS LINE ------------------
 
     -- DO NOT EDIT BELOW THIS LINE ---------------------
@@ -191,6 +192,9 @@ architecture IMP of user_logic is
   constant REG_ADDR_04       : std_logic_vector(GRAPH_MEM_ADDR_WIDTH-1 downto 0) := conv_std_logic_vector( 4, GRAPH_MEM_ADDR_WIDTH);
   constant REG_ADDR_05       : std_logic_vector(GRAPH_MEM_ADDR_WIDTH-1 downto 0) := conv_std_logic_vector( 5, GRAPH_MEM_ADDR_WIDTH);
   constant REG_ADDR_06       : std_logic_vector(GRAPH_MEM_ADDR_WIDTH-1 downto 0) := conv_std_logic_vector( 6, GRAPH_MEM_ADDR_WIDTH);
+  constant REG_ADDR_07		 : std_logic_vector(GRAPH_MEM_ADDR_WIDTH-1 downto 0) := conv_std_logic_vector( 7, GRAPH_MEM_ADDR_WIDTH);
+  constant REG_ADDR_08		 : std_logic_vector(GRAPH_MEM_ADDR_WIDTH-1 downto 0) := conv_std_logic_vector( 8, GRAPH_MEM_ADDR_WIDTH);
+  
   
   constant update_period     : std_logic_vector(31 downto 0) := conv_std_logic_vector(1, 32);
   
@@ -312,6 +316,12 @@ architecture IMP of user_logic is
   signal background_color    : std_logic_vector(23 downto 0);
   signal frame_color         : std_logic_vector(23 downto 0);
   
+  signal v_sync_counter_tc	 : std_logic_vector(10 downto 0); -- write
+  signal en					 : std_logic; -- write
+  signal tc					 : std_logic; -- read
+  --signal tbd				 : std_logic_vector(GRAPH_MEM_ADDR_WIDTH-1 downto 1); -- read
+  --signal timer_cnt			 : std_logic_vector(GRAPH_MEM_ADDR_WIDTH-1 downto 0); -- read
+
   signal vga_vsync_s         : std_logic;
   
   signal pix_clock_s         : std_logic;
@@ -337,7 +347,6 @@ begin
   
   reg_we       <= '1' when ((Bus2IP_WrCE(0) = '1') and (unit_sel = "00")) else '0';
   
-  
   process (Bus2IP_Clk, Bus2IP_Resetn) 
   begin
     if (Bus2IP_Resetn='0') then
@@ -348,6 +357,7 @@ begin
       background_color <= (others => '0');
       foreground_color <= (others => '0');
       frame_color      <= (others => '0');
+	   v_sync_counter_tc <= (others => '0'); -- added		
     elsif (rising_edge(Bus2IP_Clk)) then 
         if (reg_we = '1') then
           case (unit_addr) is
@@ -359,6 +369,8 @@ begin
             when REG_ADDR_04 => foreground_color <= Bus2IP_Data(23 downto 0);
             when REG_ADDR_05 => background_color <= Bus2IP_Data(23 downto 0);
             when REG_ADDR_06 => frame_color      <= Bus2IP_Data(23 downto 0);
+			when REG_ADDR_07 => v_sync_counter_tc <= Bus2IP_Data(10 downto 0);
+			when REG_ADDR_08 => en				  <= Bus2IP_Data(0);
             when others => null;
           end case;
         end if;
@@ -526,6 +538,12 @@ begin
   dir_green   <= x"FF" when (dir_pixel_row > 200 and dir_pixel_row < 280 and dir_pixel_column > 280 and dir_pixel_column < 360) else x"00";
   dir_red     <= x"00";
   dir_blue    <= x"00";
+  
+  -- vga_sync counter
+  tc <= '1' when dir_pixel_row = v_sync_counter_tc else
+		'0';
+  irq_o <= tc and en;
+  -- added
   
   clk5m_inst : ODDR2
   generic map(

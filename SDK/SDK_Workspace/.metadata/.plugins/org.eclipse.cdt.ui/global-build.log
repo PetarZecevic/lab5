@@ -1130,3 +1130,9 @@ elfcheck passed.
 12:14:40 **** Incremental Build of configuration Debug for project hello_world ****
 make all 
 make: Ništa za napraviti za `all'.
+12:24:36 **** Build of project hello_world_bsp ****
+make -k all 
+'Finished building libraries'
+12:24:38 **** Build of configuration Debug for project hello_world ****
+make all 
+make: Ništa za napraviti za `all'.
