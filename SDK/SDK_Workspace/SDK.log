@@ -314,3 +314,47 @@ If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx 
 12:24:40.119 INFO  - Updating hardware inferred compiler options for hello_world. 
 12:24:40.137 INFO  - Clearing existing target manager status. 
 12:26:08.592 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+10:51:11.941 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+10:57:55.213 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+11:02:08.636 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+11:02:31.595 INFO  - FPGA configured successfully with bitstream "D:/folderi_sa_D/RA43-2016/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:04:59.676 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:05:02.544 INFO  - System reset is completed. 
+11:24:59.071 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+11:25:19.140 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+11:25:21.747 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+11:25:50.876 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to connect to Xilinx hw_server. Check if the
+    hw_server is running and correct TCP port is used.
+ 
+11:26:10.205 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+11:26:32.576 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
